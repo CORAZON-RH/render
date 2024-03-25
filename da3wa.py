@@ -1,5 +1,21 @@
 import os
-
+os.system('pip install telebot')
+os.system('pip install requests')
+os.system('pip install Pygments')
+os.system('pip install pyTelegramBotAPI')
+os.system('pip install urllib3')
+os.system('pip install rich')
+os.system('pip install pycodestyle')
+os.system('pip install mdurl')
+os.system('pip install autopep8')
+os.system('pip install markdown-it-py')
+os.system('pip install Flask')
+os.system('pip install certifi')
+os.system('pip install charset')
+os.system('pip install idna')
+os.system('pip install gunicorn')
+os.system('pip install Thread')
+os.system('pip install types')
 import telebot
 import requests
 from telebot import types
