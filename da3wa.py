@@ -16,8 +16,7 @@ os.system('pip install idna')
 os.system('pip install gunicorn')
 os.system('pip install Thread')
 os.system('pip install types')
-os.system('pip install app')
-import telebot,app
+import telebot
 import requests
 from telebot import types
 from flask import Flask, request
