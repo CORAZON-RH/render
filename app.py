@@ -57,7 +57,7 @@ def hh(line_3,to_line,first_line):
 		res = requests.post('https://ibiza.ooredoo.dz/api/v1/mobile-bff/users/migration', headers=head, json=json_data).text
 		if m==6:
 		     break
-bot = telebot.TeleBot("7189173360:AAFTZkgCwRcZ26B411CByqxY7Z1-Fy7nf60")
+bot = telebot.TeleBot("6994914428:AAEe7brsiHpAU8qoeQ83FlAV7zeOEEMgA8E")
 @bot.message_handler(commands=["start"])
 def startt(message):
     
